@@ -17,7 +17,7 @@ Steps:
   - #reged -I /mnt/Windows/System32/config/SYSTEM HKEY_LOCAL_MACHINE\\\SYSTEM /mnt/chpwdservice/chpwd.reg
 
 #### Note: 
-Donot forget to remove chpwdservice directory after login to the windows, kill the rhsrvany.exe first and then remove the chpwdservice directory.
+Donot forget to remove chpwdservice directory after login to the windows, kill the rhsrvany.exe process first and then remove the chpwdservice directory.
 
 Contact & Contribute
 --------------------
