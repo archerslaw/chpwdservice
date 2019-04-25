@@ -15,7 +15,7 @@ Steps:
   
 4、import the reg file to registry some script as a windows service
   - #reged -I /mnt/Windows/System32/config/SYSTEM HKEY_LOCAL_MACHINE\\\SYSTEM /mnt/chpwdservice/chpwd.reg
-  - Notes: the default password for administrator is 1234qwerP, you can change if free
+  - Notes: the default new password for administrator user is 1234qwerP, you can change if free.
 
 #### Note: 
 Donot forget to remove chpwdservice directory after login to the windows, kill the rhsrvany.exe process first and then remove the chpwdservice directory.
